@@ -1,9 +1,9 @@
 ```sh
 $ sudo yarn add eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D	
 $ sudo yarn add redux react-redux
-$sudo yarn add prop-types
-$sudo npx eslint --init
-$sudo yarn add redux-saga axios
+$ sudo yarn add prop-types
+$ sudo npx eslint --init
+$ sudo yarn add redux-saga axios
 
 ```
 
