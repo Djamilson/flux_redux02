@@ -1,3 +1,38 @@
+```sh
+$ sudo yarn add eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react -D	
+$ sudo yarn add redux react-redux
+$sudo yarn add prop-types
+$sudo npx eslint --init
+$sudo yarn add redux-saga axios
+
+```
+
+#no arquivo .eslint.json
+```sh
+"parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "airbnb",
+  "globals": {
+    "Atomics": "readable",
+    "SharedArrayBuffer": "readable"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", "jsx"] }],
+    "import/prefer-default-export": "off"
+  }
+
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
